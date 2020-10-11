@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ostis.ExtensionNetAdapter", "Ostis.ExtensionNetAdapter\Ostis.ExtensionNetAdapter.csproj", "{033E430E-EF07-4EAE-B238-D84EDB0A4B89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{033E430E-EF07-4EAE-B238-D84EDB0A4B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{033E430E-EF07-4EAE-B238-D84EDB0A4B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{033E430E-EF07-4EAE-B238-D84EDB0A4B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{033E430E-EF07-4EAE-B238-D84EDB0A4B89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AE7AC112-829B-494F-B416-D5BCE1B1E5EB}
+	EndGlobalSection
+EndGlobal
