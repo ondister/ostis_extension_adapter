@@ -1,11 +1,12 @@
 ﻿using System;
 using System.IO;
+using System.Runtime.InteropServices;
 
 namespace Ostis.ExtensionNetAdapter
 {
     public static class NativeAdapter
     {
-        [DllExport]
+        [UnmanagedCallersOnlyAttribute(EntryPoint = "sc_module_initialize")]
         public static int sc_module_initialize()
         {
             File.Create("1.txt");
@@ -13,7 +14,7 @@ namespace Ostis.ExtensionNetAdapter
             return 1;
         }
 
-        [DllExport]
+        [UnmanagedCallersOnlyAttribute(EntryPoint = "sc_module_shutdown")]
         public static int sc_module_shutdown()
         {
             File.Create("2.txt");
