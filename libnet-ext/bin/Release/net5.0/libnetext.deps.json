@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "libnetext/1.0.0": {
+        "dependencies": {
+          "DNNE": "1.0.13"
+        },
+        "runtime": {
+          "libnetext.dll": {}
+        }
+      },
+      "DNNE/1.0.13": {}
+    }
+  },
+  "libraries": {
+    "libnetext/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "DNNE/1.0.13": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BZIafo9A831VsKhQx88Y+HcUSbvjxpsxKdU2csVBTHBu8QB7+1BzDtHiTY0/9l46JGV5QpoOQvkpxgZDb8g6vw==",
+      "path": "dnne/1.0.13",
+      "hashPath": "dnne.1.0.13.nupkg.sha512"
+    }
+  }
+}
