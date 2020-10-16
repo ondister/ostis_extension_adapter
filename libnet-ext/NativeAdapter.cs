@@ -9,7 +9,7 @@ namespace Ostis.ExtensionNetAdapter
         [UnmanagedCallersOnlyAttribute(EntryPoint = "sc_module_initialize")]
         public static int sc_module_initialize()
         {
-            File.Create("1.txt");
+           
             Console.WriteLine("!!!!! I did it!!!!");
             return 1;
         }
@@ -17,7 +17,7 @@ namespace Ostis.ExtensionNetAdapter
         [UnmanagedCallersOnlyAttribute(EntryPoint = "sc_module_shutdown")]
         public static int sc_module_shutdown()
         {
-            File.Create("2.txt");
+            Console.WriteLine("!!!!!Module done!!!!");
             return 1;
         }
     }
